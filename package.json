@@ -1,0 +1,29 @@
+{
+  "name": "house-rent-management",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roots225/house-rent-management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roots225/house-rent-management/issues"
+  },
+  "homepage": "https://github.com/roots225/house-rent-management#readme",
+  "devDependencies": {
+    "sass": "^1.49.0",
+    "vite": "^2.7.13"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
