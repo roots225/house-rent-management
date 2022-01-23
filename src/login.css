@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font: 1em sans-serif;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+/* Côté droit login tout ça */
+
+
+.right {
+    width: 50%;
+}
+
+/* bouton 1 */
+.google-btn {
+    border: 0.1px solid grey;
+    background: transparent;
+    border-radius: 0.7em;
+    display:flex;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-google img{
+    width:50%;
+}
+
+/* Or sign in with email */
+
+.grey-line {
+    margin-top: 10%;
+    width: 100%;
+    color: grey;
+    display: flex;
+    height: 20px;
+}
+
+.line{
+    margin-top: 2%;
+    width:30%;
+    height: 0.1px;
+    background-color: grey;
+    border: 0.1px solid grey;
+}
+
+.sign{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.mail label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mail input{
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+::placeholder{
+    padding-left: 5%;
+}
+
+.chek{
+    display: flex;
+    width: 50%;
+}
+
+
+.under{
+    display: flex;
+}
+
+.forget{
+    text-align:right;
+    width: 50%;
+    color: purple;
+}
+
+
+.forget h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.lab h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* bouton 2 login */
+
+.login-btn{
+    color: white;
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color:purple;
+
+    margin-top: 10%;
+}
+
+
+/* not registered yet... */
+
+.not-yet{
+    display:flex;
+
+}
+
+.create{
+    color: purple;
+}
