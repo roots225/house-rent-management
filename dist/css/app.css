@@ -1,19 +1,46 @@
 body {
     position: absolute;
+    padding-left: 100px;
+    font-family: poppins;
+    display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
 }
 
 .google_button button {
     border-radius: 40px;
-    padding: 15px 130px;
+    padding: 8px 110px;
     background-color: transparent;
     border: 1px solid gainsboro;
-    margin: 20px;
+    margin: 40px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.trait {
+    border-top: 0.1px solid rgb(195, 193, 193);
+    width: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.same {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
 }
 
 .white_text {
-    display: inline;
+    padding: 0px 20px;
+    font-size: 13px;
+    color: rgb(195, 193, 193);
 }
 
 input {
@@ -26,10 +53,38 @@ input {
     margin: 10px;
 }
 
+.logo {
+    width: 30px;
+}
+
 .login_button button {
     border-radius: 40px;
     padding: 15px 175px;
-    background-color: rgb(45, 45, 231);
+    background-color: rgb(84, 46, 211);
     color: #fff;
     border: 1px solid gainsboro;
+    margin: 8px;
+}
+
+a {
+    color: rgb(84, 46, 211);
+    font-weight: bold;
+}
+
+.first_side {
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+    img.cadre {
+        display: none;
+    }
+    body {
+        width: 100%;
+        padding-left: 0px;
+        margin: 0;
+    }
+    .first_side {
+        padding: 0px;
+    }
 }
