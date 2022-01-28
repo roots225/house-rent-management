@@ -8,9 +8,160 @@
   <link rel="stylesheet" href="dist/css/app.css">
 </head>
 <body>
-  <div>
-    A FAIRE IMPLEMENTER LA PAGE DE LOGIN
+  <div class="container">
+    <section id="login">
+      <div class="header-log">
+        <img src="" alt="" class="logo">
+        <p class="log-bold">Login</p><br>
+        <p>See your growth and get consulting support!</p>
+      </div>
+      <div class = "main-log">
+        <div class="top-input">
+          <br>
+          <br>
+          <br>
+          <button id="google" type="button">
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png" width="10%"/>
+            <p>Sign in with Google</p>
+          </button><br/>
+          <div class="altern">
+            <p><span class="line">________________ </span> or Sign in with Email <span class="line"> _______________</span></p>
+          </div>
+            
+        </div>
+        <br/>
+        <br/>
+        <form action="">
+        <p class="bold">Email*</p>
+        <input class = "samechange" type="email" placeholder="        mail@website.com" />
+          <br/>
+          <br/>
+        <p class="bold">Password*</p> 
+        <input type="password" class="samechange" placeholder="Min.8 character">
+        <br>
+        <br>
+        <div class="back-info">
+          <div class="flex">
+            <div class="souv">
+              <input type="checkbox"/>
+              <p>Remember me</p>
+            </div>
+            <p><a href="" class="blu">Forget password</a></p>
+          </div>
+          <br>
+  
+          <div class="footer-log">
+            <button class="btn-login" type="submit">Login</button><br><br>
+          <p><span class="bold">Not registered yet?</span><span ><a href="" class="blu"> Create an Account</a></span></p> 
+          </div>
+          
+        </div>
+      </form>
+       </div>
+    </section>
+    <section id="left-cote">
+      <div>
+        <img src="docs/left.png" alt="" srcset="">
+      </div>
+     
+    </section>
   </div>
+  
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      display: flex;
+    }
+    
+    #login {
+      position: absolute;
+      top: 50px;
+      left: 10%
+    }
+
+    .log-bold {
+      font-weight: 600;
+      font-size: 40px;
+    }
+
+    #google{
+      display: flex;
+      border-radius: 25px;
+      border: 1px solid grey;
+      background-color: #fff;
+      width: 400px;
+      height: 55px;
+      justify-content: center;
+      padding-top: 8px;
+      cursor: pointer;
+    }
+
+    #google p {
+      padding-top: 13px ;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .altern {
+      color: grey;
+    }
+
+    .bold {
+      font-weight: 600;
+    }
+
+    .samechange {
+      border-radius: 25px;
+      border: 1px solid grey;
+      width: 400px;
+      height: 55px;
+    }
+
+    .flex {
+      display:flex;
+      justify-content: space-between;
+    }
+
+    .souv {
+      display:flex;
+    }
+
+    .souv p {
+      margin-left: 10px;
+      margin-top: -3px;
+      font-weight: 600;
+    }
+
+    .blu {
+      color: #5138EE;
+    }
+
+    .btn-login {
+    cursor: pointer;
+      border-radius: 25px;
+      border: 1px solid #5138EE;
+      width: 400px;
+      height: 45px;
+      color: white;
+      background-color: #5138EE;
+      font-weight: 600;
+    }
+
+    #left-cote div img {
+      position: absolute;
+      width: 50%;
+      left: 50%;
+    }
+
+  </style>
   <script type="module" src="./src/index.js"></script>
 </body>
 </html>
